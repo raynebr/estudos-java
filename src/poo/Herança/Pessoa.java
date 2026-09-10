@@ -1,10 +1,13 @@
 package poo.Herança;
-//classe mae
-public class Pessoa  {
-    private String nome:
+//classe mae que pode ser uma classe abstrata que nao pode se instanciada como objeto
+public abstract class Pessoa  {
+    private String nome;
     private int idade;
     private String sexo;
 
+    public void fazeraniv(){
+        this.idade++;
+    }
     public String getNome() {
         return nome;
     }
@@ -27,5 +30,14 @@ public class Pessoa  {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", sexo='" + sexo + '\'' +
+                '}';
     }
 }

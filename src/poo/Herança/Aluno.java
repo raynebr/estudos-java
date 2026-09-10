@@ -7,6 +7,9 @@ public class Aluno extends Pessoa{
     public void cancelarMatr(){
 
     }
+    public void pagarMens(){
+
+    }
 
     public int getMatr() {
         return matr;
