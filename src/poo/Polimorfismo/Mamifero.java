@@ -16,4 +16,6 @@ public class Mamifero extends Animal {
         System.out.println("som");
 
     }
+    //lembrando que  se for metodo de sobrecarga oque muda e as assinaturas
+    //ja na sobreposição sao metodos com as mesmas assinaturas
 }
